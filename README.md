@@ -5,3 +5,4 @@ Currently holding:
 + `.vimrc`
 + `.zshrc`
 + `.netrc`
++ `.tmux.conf`
