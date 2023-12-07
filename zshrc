@@ -72,8 +72,10 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
-    zsh-syntax-highlighting
     zsh-autosuggestions
+    zsh-syntax-highlighting
+    sudo
+    extract
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -105,7 +107,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias rg="ripgrep"
 alias cat="bat"
-alias golint="~/go/bin/golint"
 alias ll="ls -lah"
 alias mv="mv -i"
 alias gs="git status"
